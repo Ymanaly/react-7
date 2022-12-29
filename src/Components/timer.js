@@ -1,7 +1,8 @@
 import React from 'react';
-import './App.css';
 
-function App() {
+
+
+function App1() {
   const [ seconds, setSeconds ] = React.useState(60);
   const [ timerActive, setTimerActive ] = React.useState(false);
 
@@ -27,4 +28,4 @@ function App() {
     </div>
   );
 }
-export default App
+export default App1
